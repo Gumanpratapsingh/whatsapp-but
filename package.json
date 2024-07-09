@@ -1,0 +1,30 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "start:ngrok": "ngrok http 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "localtunnel": "^2.0.2",
+    "multer": "^1.4.5-lts.1",
+    "ngrok": "^5.0.0-beta.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.52.4",
+    "twilio": "^5.2.2"
+  },
+  "devDependencies": {
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
